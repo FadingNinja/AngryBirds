@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.navbarelements{
+     display: flex;
+     flex-direction: row;
+}
+
+.logotitle{
+    padding: 0 30px;
+}
+
+.pad{
+    padding-right: 20px;
+    font-size: 24px;
+}
+
+
+.bgOne{
+    min-width: 800px;
+    background: url("https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2018/12/18105208/BREAMBLAST_201812_1920x700_PreRegBG.jpg") ;
+     background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.bgAngry{
+    padding: 6% 0px 10px 2%;
+    font-size: 50%;
+}
+
+#btn{
+    padding: 15px 45px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20%;
+    margin-top: 20%;
+    background: rgb(255, 225, 6);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.seperator {
+    background: url("https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2018/12/18105208/BREAMBLAST_201812_1920x700_PreRegBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
