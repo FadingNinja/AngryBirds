@@ -31,7 +31,7 @@ html, body {
     background: url("https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2018/12/18105208/BREAMBLAST_201812_1920x700_PreRegBG.jpg") ;
      background-repeat: no-repeat;
     background-size: cover;
-    height: 90%;
+    height: 150%;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -58,4 +58,31 @@ html, body {
     background: url("https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2018/12/18105208/BREAMBLAST_201812_1920x700_PreRegBG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.seperator2 {
+    background: url("https://d21tktytfo9riy.cloudfront.net/wp-content/uploads/2016/02/03135724/AB2_Clansbanners_1920x750_BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    height: 200px;
+    width: 100%;
+    background: black;
+    text-align: center;
+    padding-top: 20px
+}
+
+.iconconfig {
+    padding-bottom: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.icons {
+    border-radius: 40%;
+    padding: 10px;
+    margin: 10px;
 }
